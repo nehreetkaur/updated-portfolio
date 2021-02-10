@@ -1,0 +1,514 @@
+*{
+    box-sizing:border box;
+    margin:0;
+    padding:0;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-size: medium;
+}
+
+
+/*******************Header section***********************/
+
+/*header{
+    width:100%;
+   padding:25px;
+   position: fixed;
+   /*background-color: seashell;*/
+   /*display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+      opacity:.90;
+   
+}
+
+header h1{
+  color:#b1b1f5;
+  
+}
+
+
+#links{
+  margin-right:20px;
+}
+
+#links ul li{
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+
+#links ul li a{
+  text-decoration: none;
+  color:#b1b1f5;
+  font-weight: bolder;
+  font-size: x-large;
+  padding:25px;
+  border-bottom: 0px solid cyan ;
+  transition:border 120ms , padding 120ms;/*for smooth styling*/
+/*}
+#links ul li a:hover{
+  border-bottom: 3px solid hotpink;
+  padding-bottom:25px;
+}
+#links ul li a:active{
+  color:red;
+}*/
+
+.move{
+    position:absolute;
+    top:0;
+    width:60px;
+    height:127vh;
+
+    background:silver;
+    transition:0.5s;
+    overflow:hidden;
+}
+
+
+
+.move:scroll{
+    height:70vh;
+}
+
+.move:hover, .move.active{
+    width:200px;
+ 
+}
+
+.move ul{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.move ul li{
+    position:relative;
+    width:100%;
+    list-style:none;
+
+}
+
+
+.move ul li:hover{
+    background:lightskyblue;
+}
+
+.move ul li a{
+    position:relative;
+    display:block;
+    width:100%;
+    display:flex;
+    text-decoration: none;
+    color:salmon;
+    font-weight: bold;
+}
+
+.move ul li a .title{
+    position:relative;
+    display:block;
+    padding:0 10px;
+    height:60px;
+    line-height:60px;
+    text-align:start;
+    white-space:nowrap
+}
+
+
+.show{
+    position:absolute;
+    top:0;
+    right:0;
+    width:60px;
+    height:60px;
+    background:beige;
+    cursor:pointer;
+}
+
+.show.active{
+    background:lightskyblue;
+}
+
+.show:before{
+    content:'\f0c9';
+    font-family:fontAwesome;
+    position:absolute;
+    width:100%;
+    height:100%;
+    line-height:center;
+    text-align:center;
+    font-size:24px;
+    color:#fff;
+}
+
+.show.active:before{
+    content:'\f00d';
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************About me Section********************/ 
+
+#landing{
+  background:url("images/beige.jpg");
+ /* background-repeat: no repeat;*/
+  background-size:cover;
+  height:100vh;
+  padding:100px 20px;
+}  
+/*************************pic card sec******************/
+
+.piccard{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:auto;
+  width:70%;
+  padding:45px 10px;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  box-shadow:2px 2px 8px purple;
+}
+
+.piccard img{
+  height:250px;
+    border-radius: 10px;
+  box-shadow: 2px 2px 8px purple;
+  margin-top: 2%;
+}
+
+  p#Aboutme::first-letter{     /******Pseudo elements****/
+  color:purple;   
+  font-size:200%;
+}
+.piccard p{
+  color:palevioletred;
+}
+
+.info h2{
+  color:purple;
+}
+
+.info{
+  width:60%;
+  padding:10px;
+}
+.info p{
+  padding:10px 0;
+  font-weight: bold;
+  
+}
+
+
+/****************Work-section***********************/
+.projects{
+  display:flex;
+  flex-direction:column;
+  padding:100px;
+}
+
+.projects h1{
+  color:cadetblue;
+  text-transform: uppercase;
+
+}
+
+
+.projects1{
+  margin-bottom:50px;
+  border-bottom:2px solid black;
+  color:royalblue;
+}
+.projsec{
+  display:flex;
+  margin:auto;
+  margin-bottom:40px;
+  border:3px solid cyan;
+  background-color:peachpuff;
+
+  }
+  .projectinfo{
+    padding:20px;
+  }
+
+  .projectinfo a{
+    color: salmon;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+  }
+
+
+
+  .projectinfo h2{
+    border-bottom: 4px pink;
+    margin-bottom:15px;
+    color:salmon;
+    text-transform: uppercase;
+  }
+  .projsec img{
+    width:40%;
+    align-self:flex-start;
+  }
+
+  .projectinfo p{
+    color:rgb(145, 135, 250);
+    font-weight:bold;
+  }
+
+/**********************skills section********************/
+
+  .main-skill{
+      width:100%;
+      height:300px;
+      
+      background:url("images/sky11.jpg");
+      margin-bottom:2%;
+
+  }
+    .head{
+       text-align:center;
+       
+       margin-bottom: 5%;
+       font-weight: bold;
+       text-transform: uppercase;
+       font-size: x-large;
+       color:salmon;
+   }
+
+   
+    
+   
+
+   .types{
+       display:flex;
+       justify-content: space-evenly;
+       margin-bottom: 20px;
+   }
+
+   .btn ,.btn1{
+       background:rgb(237, 238, 243);
+       border: none;
+       font-weight: bold;
+       font-style: italic;
+       font-size: large;
+       color:sandybrown;
+       padding: 10px;
+       background: transparent;
+   }
+       
+
+
+   .btn:hover, .btn1:hover{
+     
+     background-color:peachpuff;
+
+
+   }
+
+   .types1{
+       display:flex;
+       justify-content: space-evenly;
+   }
+
+   .btn1{
+     margin-top:3% ;
+   }
+
+/*****************End of Project Part********/
+
+
+ #footer{
+  background:red;
+  padding:15px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:100%;
+  
+
+}
+
+
+
+#footerlinks{
+  margin-right:20px;
+  
+}
+#footerlinks ul li{
+  display:inline-block;
+}
+
+#contact{
+        
+   background-color:rgba(250, 128, 114, 0.306);
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding:50px;
+  
+}
+
+
+h4{
+  text-transform: uppercase;
+  color:salmon;
+  font-size: x-large;
+
+}
+
+h4:hover{
+  border-top: 4px solid cyan;
+}
+
+
+
+
+#contactlinks ul li{
+  display:inline-block;
+}
+
+#contactlinks ul li a{
+  text-decoration: none;
+  color:salmon;
+  padding:20px;
+  border-bottom: 0px solid cyan ;
+  transition:border 120ms, padding 120m;
+  
+}
+
+#contactlinks ul li a:active{
+  color:red;
+
+}
+
+#contactlinks ul li:hover{
+  border-top: 4px solid cyan;
+  
+}
+
+
+
+
+.outer-footer{
+  background:lightskyblue;
+  width:100%;
+  height:60px;
+  position:relative;
+  
+}
+.outer-footer:after{
+  position: absolute;
+  width:100%;
+  height:90%;
+  content:'';
+  background:inherit;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  transform-origin: top left;
+  transform:skewY(-2deg);
+  border-radius: 5%;
+}
+
+/*****************************Media-queries******************************/
+
+@media  screen and (max-width:768px){   /*for header*/
+  #links ul li a:hover{
+    border-bottom:3px solid black;
+    padding-bottom: 10px;
+  }
+   header h2,#links{
+    margin:auto;
+  }
+  header h1{
+    display: none;
+  }
+
+
+
+
+
+
+    @media screen and (max-width:992px){
+      header{
+        background-color:peachpuff;
+      }
+    }
+
+
+  /*media-query for piccard*/
+ .piccard{
+   width:50%;
+   padding:20px;
+   background: none;
+ }
+
+ .info{
+   width:100%;
+ }
+
+ .info h2{
+   display:none;
+ }
+
+ .piccard img{
+   height:150px;
+ }
+
+ /*for projects*/
+ .projects{
+   padding:20px;
+ }
+
+ .projsec{
+   width:100%;
+   flex-wrap: wrap;
+ }
+
+ .projsec2{
+   width:100%;
+   flex-wrap:wrap-reverse;
+ }
+
+ .projsec  img{
+   margin:auto;
+   width:100%;
+ }
+
+  /********footer******/
+  .contactlinks ul li{
+    flex-shrink: 2;
+    color:blue;
+  }
+  
+  h4{
+    font-size: small;
+  }
+
+
+}
+
+
+
