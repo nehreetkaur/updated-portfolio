@@ -83,6 +83,6 @@
   ## LINKS
   [Git-hub Repository](https://github.com/nehreetkaur/updated-portfolio)
 
-  [Git-hub DEPLOYED APPLICATION](https://nehreetkaur.github.io/github1.io/)
+  [Git-hub DEPLOYED APPLICATION](https://nehreetkaur.github.io/updated-portfolio/)
    
 

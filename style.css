@@ -311,7 +311,7 @@ header h1{
        border: none;
        font-weight: bold;
        font-style: italic;
-       font-size: large;
+       font-size: x-large;
        color:sandybrown;
        padding: 10px;
        background: transparent;
@@ -430,6 +430,14 @@ h4:hover{
   transform-origin: top left;
   transform:skewY(-2deg);
   border-radius: 5%;
+}
+
+.top{
+  text-align: center;
+  font-weight: bold;
+}
+.top a{
+  color:salmon;
 }
 
 /*****************************Media-queries******************************/
