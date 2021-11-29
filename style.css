@@ -63,7 +63,6 @@ header h1{
     top:0;
     width:60px;
     height:127vh;
-
     background:silver;
     transition:0.5s;
     overflow:hidden;
@@ -441,6 +440,14 @@ h4:hover{
 }
 
 /*****************************Media-queries******************************/
+
+/*  
+@media  screen and (max-width:1000px){
+.move{
+  background-color: violet;
+    height:50vh;
+}
+}   */
 
 @media  screen and (max-width:768px){   /*for header*/
   #links ul li a:hover{
