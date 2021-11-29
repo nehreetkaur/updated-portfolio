@@ -470,7 +470,7 @@ h4:hover{
  .piccard{
    width:50%;
    padding:20px;
-   background: none;
+   background:none;
  }
 
  .info{
@@ -504,6 +504,31 @@ h4:hover{
    margin:auto;
    width:100%;
  }
+
+
+ @media screen and (max-width:480px){
+.move{
+  background-color:transparent;
+  font-size: small;
+}
+
+.piccard img{
+  height:100px;
+
+
+}
+.piccard{
+  padding:0;
+}
+.info{
+  height:600px;
+  overflow: hidden;
+  font-size: small;
+}
+ }
+
+
+
 
   /********footer******/
   .contactlinks ul li{
